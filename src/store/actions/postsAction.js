@@ -6,28 +6,20 @@ import {
 import json from '../../state'
 
 export const fetchJson = () => async dispatch => {
-  let newJson = json.map(item => {
-    // item.name.split('').map(el => {
-    //   console.log(el, 555)
-    // })
-    return item.name.split('').map(el => {
-      return{
-        name: el,
-        styles: item.styles
-      }
+  let newJson = [];
+  json.map(item => {
+   item.name.split('').map(el => {
+    newJson.push({
+      name: el,
+      styles: item.styles
+      })
     })
-    // console.log(some, 432)
-    // return some[0]
-    // return{
-    //   ...item.name,
-    //   styles: item.styles
-    // }
-  })
+  });
   console.log(newJson, 444)
   try{
     dispatch({
       type: FETCH_JSON,
-      payload: json
+      payload: newJson
     })
   }catch (e) {
     console.log(e)
