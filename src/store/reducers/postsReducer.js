@@ -5,6 +5,7 @@ import {
 
 const initialState = {
   json: [],
+  text: ''
 };
 
 const postReducer = (state = initialState, action) => {
@@ -12,7 +13,8 @@ const postReducer = (state = initialState, action) => {
     case FETCH_JSON:
       return {
         ...state,
-        json: action.payload
+        json: action.payload,
+        text: action.text
       };
     case CHANGE_JSON:
       return {

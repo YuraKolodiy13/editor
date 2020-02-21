@@ -1,23 +1,26 @@
 [
   {
-    "name": "my ",
-    "styles": {
-      "color": "red",
-      "background": "green"
-    }
+    "text": "My lovely",
+    "fontSize": "18px",
+    "color": "red",
+    "backgroundColor": "black"
   },
   {
-    "name": "red",
-    "styles": {
-      "color": "red",
-      "background": "green"
-    }
+    "text": "little",
+    "fontSize": "22px",
+    "color": "pink",
+    "backgroundColor": "green"
   },
   {
-    "name": "is",
-    "styles": {
-      "color": "black",
-      "background": "yellow"
-    }
+    "text": "My fdsafly",
+    "fontSize": "18px",
+    "color": "red",
+    "backgroundColor": "black"
+  },
+  {
+    "text": "fsdfds",
+    "fontSize": "22px",
+    "color": "pink",
+    "backgroundColor": "green"
   }
 ]

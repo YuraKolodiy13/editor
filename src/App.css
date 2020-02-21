@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.App span{
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 5px;
+}
 
 .App-logo {
   height: 40vmin;
