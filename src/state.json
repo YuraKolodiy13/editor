@@ -1,0 +1,23 @@
+[
+  {
+    "name": "my ",
+    "styles": {
+      "color": "red",
+      "background": "green"
+    }
+  },
+  {
+    "name": "red",
+    "styles": {
+      "color": "red",
+      "background": "green"
+    }
+  },
+  {
+    "name": "is",
+    "styles": {
+      "color": "black",
+      "background": "yellow"
+    }
+  }
+]
