@@ -1,6 +1,6 @@
 [
   {
-    "text": "My lovely",
+    "text": "My lovely <br/>",
     "fontSize": "18px",
     "color": "red",
     "backgroundColor": "black"
@@ -18,7 +18,7 @@
     "backgroundColor": "black"
   },
   {
-    "text": "fsdfds",
+    "text": "11test11",
     "fontSize": "22px",
     "color": "pink",
     "backgroundColor": "green"
